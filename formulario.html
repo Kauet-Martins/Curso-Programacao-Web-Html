@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form action="">
+        
+        <!--LEGENDA PARA NOME-->
+        <label for="campo-nome">Nome</label>
+
+        <!--INPUT DO TYPE TEXT (NOME)-->
+        <input type="text" name="" id="campo-nome" placeholder="Digite seu nome" required>
+        
+        <br><br>
+        
+        <!--LEGENDA PARA SENHA-->
+        <label for="campo-senha">Senha</label>
+
+        <!--INPUT DO TYPE PASSWORD-->
+        <input type="password" name="" id="campo-sennha" placeholder="Digite uma senha" required>
+        
+        <br><br>
+
+        <!--LEGENDA PARA EMAIL-->
+        <label for="campo-email">Email</label>
+
+        <!--INPUT DO TYPE EMAIL-->
+        <input type="email" name="" id="campo-email" placeholder="Digite seu melhor email" required>
+        
+        <br><br>
+
+        <h2>Animal de Estimacao</h2>
+
+        <!--INPUT DO TYPE RADIO (MULTIPLA ESCOLHA)-->
+        <input type="radio" id="dog" name="animal" value="cachoro">
+        
+        <!--LEGENDA DO INPUT-->
+        <label for="dog">Cachorro</label>
+
+        <br><br>
+
+        <!--INPUT DO TYPE RADIO (MULTIPLA ESCOLHA)-->
+        <input type="radio" id="cat" name="animal" value="Gato">
+        
+        <!--LEGENDA DO INPUT-->
+        <label for="cat">Gato</label>
+
+        <br><br>
+        <!--INPUT DO TYPE RADIO (MULTIPLA ESCOLHA)-->
+        <input type="radio" name="animal" id="bird" value="Passaro">
+        
+        <!--LEGENDA DO INPUT-->
+        <label for="bird">Passaro</label>
+
+        <br><br>
+        <!--INPUT DO TYPE RADIO (MULTIPLA ESCOLHA)-->
+        <input type="radio" id="other" name="animal" value="Outro">
+        
+        <!--LEGENDA DO INPUT-->
+        <label for="other">Outro</label>
+
+        <br><br>
+
+        <h2>Quais Linguagens de Programacao voce ja estudou?</h2>
+
+        <!--INPUT DO TYPE CHECKBOX (CAIXAS DE MARCACAO)-->
+        <input type="checkbox" name="item1" value="Java" id="java">
+        
+        <!--LEGENDA DO INPUT CHECKBOX-->
+        <label for="java">Java</label>
+
+        <br><br>
+        
+        <!--INPUT DO TYPE CHECKBOX (CAIXAS DE MARCACAO)-->
+        <input type="checkbox" name="item2" value="Python" id="python">
+        
+         <!--LEGENDA DO INPUT CHECKBOX-->
+        <label for="python">Python</label>
+
+        <br><br>
+        
+        <!--INPUT DO TYPE CHECKBOX (CAIXAS DE MARCACAO)-->
+        <input type="checkbox" name="item3" value="Javascript" id="javascript">
+        
+         <!--LEGENDA DO INPUT CHECKBOX-->
+        <label for="javascript">Javascript</label>
+
+        <br><br>
+
+        <!--CAIXA DE SELECAO-->
+        <select name="cores" id="">
+            
+            <!--PRIMEIRA OPCAO PARA MOSTRAR DO QUE SE TRATA A SELECAO-->
+            <option disabled selected value="">Selecione Uma cor</option>
+            
+            <!--OPCAO VERMELHO-->
+            <option value="Vermelho">Vermelho</option>
+            
+            <!--OPCAO AZUL-->
+            <option value="Azul">Azul</option>]
+            
+            <!--OPCAO AMARELO-->
+            <option value="Amarelo">Amarelo</option>
+        
+        </select>
+
+        <h2>Digite Sua Mensagem:</h2>
+
+        <!--AREA PARA ESCREVER UM TEXTO-->
+        <textarea name="Mensagem" id="" cols="35" rows="10" placeholder="Digite Aqui Sua Mensagem"></textarea>
+
+        <br><br>
+
+        <!--INPUT DO TYPE SUBMIT (BOTAO)-->
+        <input type="submit" value="Enviar Formulario">
+
+    </form>
+        
+        
+    <hr><br>
+    <a href="index.html">Pagina Inicial</a>
+</body>
+</html>
